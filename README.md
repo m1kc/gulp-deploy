@@ -5,6 +5,15 @@ A gulp script to deploy your stuff over SSH. Keeps a history of previous
 deploys so you can easily rollback if something goes wrong. Use it
 as standalone or embed it into your project's Gulpfile.
 
+Required npm packages:
+
+- gulp
+- chalk
+- gulp-ssh
+- gulp-shell
+- moment
+- inquirer
+
 To start using it:
 
 1. Create a SSH account on target server and give it permissions to write into
