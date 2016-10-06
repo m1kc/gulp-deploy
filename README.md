@@ -6,6 +6,7 @@ deploys so you can easily rollback if something goes wrong. Use it
 as standalone or embed it into your project's Gulpfile.
 
 To start using it:
+
 1. Create a SSH account on target server and give it permissions to write into
    target directory.
 2. Make sure you web server serves content from the `current/` dir.
