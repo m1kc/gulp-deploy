@@ -7,12 +7,9 @@ as standalone or embed it into your project's Gulpfile.
 
 Required npm packages:
 
-- gulp
-- chalk
-- gulp-ssh
-- gulp-shell
-- moment
-- inquirer
+```
+gulp gulp-ssh gulp-shell coffee-script chalk moment inquirer
+```
 
 To start using it:
 
