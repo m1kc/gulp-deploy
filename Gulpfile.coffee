@@ -44,9 +44,10 @@ or you'll be prompted to type it into tty.
 """
 
 
-gulp.task 'deploy:passwd', ->
+gulp.task 'deploy:passwd', (done) ->
 	if process.env.DEPLOY_PASSWORD?
 		deploy_password = process.env.DEPLOY_PASSWORD
+		done()
 	else
 		inquirer = require 'inquirer'
 		return inquirer
